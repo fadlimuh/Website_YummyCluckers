@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Yummy Cluckers</title>
+    
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Magic UI -->
+    <script src="https://cdn.jsdelivr.net/npm/@magiclabs/ui/dist/index.umd.min.js"></script>
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center px-8 py-4 bg-white shadow-md">
+      <div class="text-2xl font-bold text-black flex items-center gap-2">
+        <a href="index.html"><span>yummy cluckers</span></a>
+    </div>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-yellow-500 font-semibold">Menu</a></li>
+                <li><a href="about-us.html" class="hover:text-yellow-500 font-semibold">About us</a></li>
+                <li><a href="#" class="hover:text-yellow-500 font-semibold">Testimoni</a></li>
+                <li><a href="services.html" class="hover:text-yellow-500 font-semibold">Services</a></li>
+                <li><a href="#" class="hover:text-yellow-500 text-lg">🔍</a></li>
+                <li><a href="#" class="hover:text-yellow-500 text-lg">☰</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen bg-cover bg-center" style="background-image: url('img/bg\ home.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center px-10">
+            <div class="max-w-lg text-white" data-aos="fade-up">
+                <h1 class="text-4xl font-bold mb-4">yeyy it’s sunday.</h1>
+                <p class="mb-6">
+                    Selamat hari minggu untuk kalian orang-orang hebat di luar sana, nikmati produk dari yummy cluckers untuk menemani hari minggu syahdu ini. Pesan sekarang juga!
+                </p>
+                <button class="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 rounded-lg font-semibold shadow-lg">
+                    Order Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-10">
+        <div class="container mx-auto flex justify-between items-center px-8">
+            <!-- Left Content -->
+            <div>
+              <h2 class="text-2xl font-bold mb-4">yummy cluckers</h2>
+              <div class="flex space-x-4">
+                  <!-- Instagram -->
+                  <a href="https://www.instagram.com/yummycluckers">
+                      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" 
+                           class="w-6 h-6 hover:opacity-75 icon-styled stroke-white fill-current text-black" 
+                           alt="Instagram">
+                  </a>
+          
+                  <!-- YouTube -->
+                  <a href="https://www.youtube.com/yummycluckers">
+                      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" 
+                           class="w-6 h-6 hover:opacity-75 icon-styled stroke-white fill-current text-black" 
+                           alt="YouTube">
+                  </a>
+          
+                  <!-- Facebook -->
+                  <a href="https://www.facebook.com/yummycluckers">
+                      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" 
+                           class="w-6 h-6 hover:opacity-75 icon-styled stroke-white fill-current text-black" 
+                           alt="Facebook">
+                  </a>
+          
+                  <!-- TikTok -->
+                  <a href="https://www.tiktok.com/@yummycluckers">
+                      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" 
+                           class="w-6 h-6 hover:opacity-75 icon-styled stroke-white fill-current text-black" 
+                           alt="TikTok">
+                  </a>
+          
+                  <!-- Twitter -->
+                  <a href="https://twitter.com/yummycluckers">
+                      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" 
+                           class="w-6 h-6 hover:opacity-75 icon-styled stroke-white fill-current text-black" 
+                           alt="Twitter">
+                  </a>
+              </div>
+          </div>          
+
+            <!-- Right Content -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Download Our App</h3>
+                <div class="space-y-2">
+                    <a href="#" class="block px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-md text-center">
+                        Download on the <span class="font-bold">App Store</span>
+                    </a>
+                    <a href="#" class="block px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-md text-center">
+                        Get it on <span class="font-bold">Google Play</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            once: true      // Animate only once
+        });
+    </script>
+</body>
+</html>
